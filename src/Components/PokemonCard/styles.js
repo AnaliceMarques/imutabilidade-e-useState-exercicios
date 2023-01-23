@@ -11,21 +11,24 @@ export const Card = styled.div`
 `;
 
 export const PokemonName = styled.h2`
-    border-top: 2px solid black;
-    padding: 0.5rem 0;
-`
+  border-top: 2px solid black;
+  padding: 0.5rem 0;
+`;
 
 export const PokemonType = styled.p`
-    font-weight: bold;
-    text-transform: capitalize;
-    padding: 0.5rem 0;
-`
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+`;
 export const EvolveButton = styled.button`
-    padding: 0.5rem;
-    margin: 16px;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 6px 30px -10px #000000;
-
-`
+  padding: 0.5rem;
+  margin: 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 30px -10px #000000;
+`;
+export const ImagemPokemon = styled.img`
+  width: 200px;
+  height: 230px;
+`;
